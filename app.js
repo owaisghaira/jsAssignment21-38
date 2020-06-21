@@ -54,4 +54,87 @@
 
 // chapter # 21-25 Task no. # 8
 
-var message = 'Ali and Sami are best friends. They play cricket and football together.';
+// var message = 'Ali and Sami are best friends. They play cricket and football together.';
+// var rep = message.replace(/and/g,"&")
+// document.write(rep)
+
+// chapter # 21-25 Task no. # 9
+
+// var str = "472";
+// var con = Number(str)
+// document.write("Value : <br>")
+// document.write("string :"+ str +"<br>")
+// document.write("Value : <br>")
+// document.write("number : " + con)
+
+// chapter # 21-25 Task no. # 10
+
+// var input = prompt("your name plz")
+// input = input.toUpperCase()
+// document.write(input)
+
+// chapter # 21-25 Task no. # 11
+
+//  var input = prompt("your name plz")
+//  var first = input.slice(0,1)
+//  var second = input.slice(1)
+//  first = first.toUpperCase();
+//  second = second.toLowerCase()
+//  alert(first+second)
+
+// chapter # 21-25 Task no. # 12
+
+// var num = 35.36
+// var str = num.toString();
+// str = str.replace(".","")
+// document.write('number '+num+'<br>')
+// document.write('Result '+str)
+
+// chapter # 21-25 Task no. # 13
+
+// var name = prompt('your name plz')
+// var c = false;
+// for (var i = 0 ; i <= name.length ; i++){
+//     if (name.slice(i , i+1) === "@"||
+//      name.slice(i , i+1) === "!" ||
+//      name.slice(i , i+1) === ","||
+//      name.slice(i , i+1) === "."  ){
+//         c = true;
+//         break;
+//     }
+    
+    
+// }
+// if(c){
+//     alert('enter valid no.')
+// }
+// else{
+//     alert('thanku '+ name)
+// }
+
+// chapter # 21-25 Task no. # 14
+
+// A = ["apple pie", "cookie", "chips", "patties","cake"];
+// var input = prompt("welcome to ABC bakery.What do you want to order Sir / Ma'am");
+// var c = input.toLowerCase();
+
+
+// for (var i= 0; i < 5 ; i++){
+//     if (c === A[i]){
+//         alert(c + ' is available in our bakery')
+//         break;
+//     }
+//     else{
+//         alert('We are sorry ')
+//         break;
+//     }
+// }
+
+// chapter # 21-25 Task no. # 15
+
+
+
+
+
+
+
