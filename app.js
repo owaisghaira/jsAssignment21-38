@@ -132,9 +132,44 @@
 
 // chapter # 21-25 Task no. # 15
 
+// var pass = prompt('Enter valid password')
+// if (pass.length <= 6 && pass.length === " "){
+//     if(pass.slice(0,1).charCodeAt() < 65){
+//         alert('password start character')
+//     }
+//     else{
+//         alert('succeed')
 
+//     }
 
+// }
+// else{
+//     alert('character must be 6')
+// }
 
+// chapter # 21-25 Task no. # 16
 
+// var uni = 'University Of Karachi'
+// for (var i = 0; i <uni.length ; i++){
+//     document.write(uni[i] + '<br>')
+//}
 
+// chapter # 21-25 Task no. # 17
 
+// var inp = prompt('enter here')
+// inp = inp.slice(-1)
+// alert(inp)
+
+// chapter # 21-25 Task no. # 18
+
+// var para = 'The quick brown fox jumps over the lazy dog';
+// para = para.toLowerCase();
+// console.log(para)
+// var count = 0;
+
+// for (var i = 0; i < para.length; i++){
+//    if ( para.slice(i,i+3) === 'the'){
+//        count++;
+//    }
+// }
+// document.write("there are "+count+" occurence of word the")
