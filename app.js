@@ -173,3 +173,98 @@
 //    }
 // }
 // document.write("there are "+count+" occurence of word the")
+
+// chapter # 26-30 Task no. # 1
+
+// var num = +prompt('Enter a No.' );
+// var roun = Math.round(num);
+// var cei = Math.ceil(num)
+// var flo = Math.floor(num)
+// document.write("Number : "+num + "<br>")
+// document.write("Round of value : "+roun + "<br>")
+// document.write("Ceil value : "+cei + "<br>")
+// document.write("floor value : "+flo + "<br>")
+
+// chapter # 26-30 Task no. # 2
+
+// var num = prompt('Enter a No.' );
+// var sin = num.slice(0,1);
+// console.log(sin)
+// if (sin === '-'){
+//     var roun = Math.round(num);
+// var cei = Math.ceil(num)
+// var flo = Math.floor(num)
+// document.write("Number : "+num + "<br>")
+// document.write("Round of value : "+roun + "<br>")
+// document.write("Ceil value : "+cei + "<br>")
+// document.write("floor value : "+flo + "<br>")
+
+
+// }
+// else{
+//     alert("enter negetive value")
+
+// }
+
+// chapter # 26-30 Task no. # 3
+
+// var num = prompt("enter")
+// num = Math.ceil(num)
+// console.log(num) 
+
+// chapter # 26-30 Task no. # 4
+
+// var num = Math.random()*6;
+// num = Math.round(num) 
+// document.write('random dice value is : '+num)
+
+//chapter # 26-30 Task no. # 5
+
+// var head = prompt("Heads user name...")
+// var tail = prompt("Tails user name .. ")
+
+// var num = Math.random()*2;
+// num = Math.floor(num)
+// console.log(num)
+// if (num === 0){
+//     alert("heads "+head+ " win the toss")
+// }
+// else{
+//     alert("tails "+tail+" win the toss")
+// }
+
+//chapter # 26-30 Task no. # 6
+
+// var num = Math.random()
+// num =  num.toString() 
+// num = num.slice(2,4)
+// document.write("Random number between 1 to 100 is : "+ num)
+
+//chapter # 26-30 Task no. # 7
+
+// var kilo = prompt("enter kgs")
+// document.write("The weight of user is "+ kilo)
+
+//chapter # 26-30 Task no. # 8
+
+// var num = Math.random() * 9 + 2 ;
+// num = Math.floor(num);
+// console.log(num)
+// var enternum = prompt("Guess any no.");
+// if (num == enternum){
+//     alert("you rocksss");
+// }
+// else{
+//     alert("fail")
+// }
+
+//chapter # 31-34 Task no. # 1
+
+// var a = new Date();
+// document.write(a)
+
+//chapter # 31-34 Task no. # 2
+
+var a = new Date();
+ var b = a.toString();
+ var c = b.slice(4,8);
