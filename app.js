@@ -265,6 +265,98 @@
 
 //chapter # 31-34 Task no. # 2
 
-var a = new Date();
- var b = a.toString();
- var c = b.slice(4,8);
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(4,8);
+// document.write("current Month "+c)
+
+//chapter # 31-34 Task no. # 3
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(0,3)
+// document.write("Today is "+c)
+
+//chapter # 31-34 Task no. # 4
+
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(0,3);
+// console.log(c)
+// if (c === "sun"||c === "sat"){
+//     alert("It's fun day");
+// }
+// else{
+//     alert(c)
+// }
+
+//chapter # 31-34 Task no. # 5
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(8,10)
+// if (c < 16){
+//     alert("First fifteen days of the month")
+// }
+// else{
+//     alert("Last days of the month")
+// }
+
+//chapter # 31-34 Task no. # 6
+
+// var a = new Date();
+// var millsSince = a.getTime();
+// document.write(a+'<br>')
+// document.write("Miliseconds since jan,1 ,1970"+millsSince+"<br>");
+// var hor = millsSince/1000/60/60
+// document.write("Minutes since jan 1,1970"+hor)
+
+//chapter # 31-34 Task no. # 7
+
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(16,18);
+// if (c <12){
+//     alert("it's AM")
+
+// }
+// else{
+//     alert("it's PM")
+// }
+
+//chapter # 35-38 Task no. # 1
+
+// function time(){
+//     var a = new Date();
+//     var b = a.toString()
+//     document.write(b)
+// }
+// time()
+
+//chapter # 35-38 Task no. # 2
+
+// function greet(){
+//     var f =prompt("First Name");
+//     var l = prompt("last name")
+//     var a = f + l
+//     alert("Hello "+ a)
+// }
+// greet()
+
+//chapter # 35-38 Task no. # 3
+
+//function greet(){
+    //     var f = +prompt("First No.");
+    //     var l = +prompt("last No.")
+    //     var a = f + l
+    //     alert("Sum is "+ a)
+    // }
+    // greet()
+
+//chapter # 35-38 Task no. # 4
+function cal(){
+       var f = +prompt("First No.");
+        var l = +prompt("last No.")
+        var o = prompt("oprater")
+        var a = f+o+l
+        alert("Sum is "+ a)
+    }
+    cal()
