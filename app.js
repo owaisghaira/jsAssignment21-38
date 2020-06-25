@@ -352,11 +352,48 @@
     // greet()
 
 //chapter # 35-38 Task no. # 4
-function cal(){
-       var f = +prompt("First No.");
-        var l = +prompt("last No.")
-        var o = prompt("oprater")
-        var a = f+o+l
-        alert("Sum is "+ a)
-    }
-    cal()
+// function cal(){
+//        var num1 = +prompt("First No.");
+//         var num2 = +prompt("last No.")
+//         var oprtr = prompt("oprater")
+        
+//         if (oprtr === "+"){
+//             alert(num1+num2)
+
+//         }
+//         else if(oprtr === "-"){
+//             alert(num1 - num2)
+//         }
+//         else if(oprtr === "*"){
+//             alert(num1*num2)
+//         }
+//         else if (oprtr === "/"){
+//             alert(num1/num2)
+//         }
+//         else{
+//             alert("enter correct values")
+//         }
+
+//     }
+//     cal()
+
+//chapter # 35-38 Task no. # 5
+
+// var num = +prompt("Enter a number:");
+
+// function sumOfSquares(num) {
+
+//     for (var i=0;i<=num;i++) {
+//         var i = i*i;
+//         sum = i;
+// }
+//      document.write("The sum of squares for numbers up to and including " +num+ "is " +sum );
+
+// }
+
+// sumOfSquares(num);
+
+//chapter # 35-38 Task no. # 6
+//no Idea
+
+//chapter # 35-38 Task no. # 7
