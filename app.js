@@ -394,6 +394,40 @@
 // sumOfSquares(num);
 
 //chapter # 35-38 Task no. # 6
-//no Idea
+
+// function fact(n){
+//     var num = 1;
+//     if (n == 0 || n == 1){
+//         return num;
+//     }
+//     else
+//     {
+//         for(var i = n ; i >= 1; i--){
+//             num = num *i;
+//         }
+//         return num;
+
+//     }
+// }
+// num = fact(prompt("enter a num that show factoraial"))
+// alert("the factorial is "+num)
 
 //chapter # 35-38 Task no. # 7
+
+// function run(){
+
+//     var start = prompt("first num");
+//     var end = prompt("end num");
+
+//     for(var i = start; i <= end; i++){
+//     document.write(i+"<br>")
+//     }
+// }
+// run()
+
+//chapter # 35-38 Task no. # 8
+
+//chapter # 35-38 Task no. # 9
+
+
+
