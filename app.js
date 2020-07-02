@@ -429,5 +429,22 @@
 
 //chapter # 35-38 Task no. # 9
 
+// var width = prompt("enter width")
+// var heigth = prompt("enter heigth") 
+// function area(width,heigth){
+//     return width * heigth;
+// }
+
+// //chapter # 35-38 Task no. # 10
+
+// var input1 = prompt("Enter your Name ")
+// var input2 = input1.split("").reverse().join("");
+// if (input1 === input2){
+//     alert("The given word is palindrom")
+// }
+// else{
+//     alert("The word is not a aplandrom word")
+// }
+
 
 
